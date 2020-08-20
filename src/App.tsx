@@ -1,11 +1,13 @@
-import React from 'react';
-
-import GlobalStyles from './styles/GlobalStyles';
+import React from "react";
+// COMPONENTS
+import Layout from "./components/Layout";
+// SYTLES | STATCIS
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
   return (
     <>
-      <h1>Rocketseat</h1>
+      <Layout />
 
       <GlobalStyles />
     </>

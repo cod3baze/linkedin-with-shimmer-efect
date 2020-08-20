@@ -1,15 +1,15 @@
-import styled, { css } from 'styled-components';
-import { AiOutlineLike } from 'react-icons/ai';
+import styled, { css } from "styled-components";
+import { AiOutlineLike } from "react-icons/ai";
 import {
   RiMessage2Line,
   RiShareForwardLine,
   RiSendPlaneLine,
-} from 'react-icons/ri';
+} from "react-icons/ri";
 
 export const Container = styled.div`
   margin-top: 8px;
 
-  @media (min-width: 1180px) {
+  @media (min-width: 900px) {
     margin-top: 16px;
   }
 `;
@@ -63,7 +63,7 @@ export const Row = styled.div`
   &.actions {
     justify-content: space-between;
 
-    @media (min-width: 1180px) {
+    @media (min-width: 900px) {
       justify-content: flex-start;
     }
 
@@ -88,7 +88,7 @@ export const Row = styled.div`
       span {
         display: none;
 
-        @media (min-width: 1180px) {
+        @media (min-width: 900px) {
           display: unset;
         }
       }

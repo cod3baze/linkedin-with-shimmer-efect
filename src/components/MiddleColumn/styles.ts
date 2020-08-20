@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-  @media (min-width: 1180px) {
+  @media (min-width: 900px) {
     width: 552px;
   }
 `;
