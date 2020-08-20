@@ -15,16 +15,22 @@ export const Container = styled.div`
       display: flex;
       justify-content: center;
     }
+    > span {
+      margin-top: 62px;
+      padding: 8px 0;
+    }
   }
 
   .left-column,
-  .right-column {
+  .right-column,
+  .ad-banner {
     display: none;
   }
 
   @media (min-width: 900px) {
     .left-column,
-    .right-column {
+    .right-column,
+    .ad-banner {
       display: unset;
     }
 
